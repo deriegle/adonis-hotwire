@@ -2,6 +2,14 @@
   "name": "adonis-hotwire",
   "version": "1.0.0",
   "private": false,
+  "keywords": [
+    "adonis",
+    "hotwire",
+    "deriegle",
+    "turbolinks",
+    "turbo streams",
+    "stimulus"
+  ],
   "files": [
     "build/adonis-typings",
     "build/commands",
