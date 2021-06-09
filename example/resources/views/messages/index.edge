@@ -1,0 +1,16 @@
+@layout('layouts/main')
+@set('title', 'Messages')
+
+@section('body')
+  <h1> Current Messages </h1>
+
+  <div id="messages">
+    @each(message in messages)
+      @!component('messages/show', {
+        message
+      })
+    @endeach
+  </div>
+
+  @!component('messages/new')
+@end

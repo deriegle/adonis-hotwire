@@ -1,0 +1,17 @@
+<turbo-frame id="message_frame_{{ message.id }}">
+  <div id="message_{{message.id}}" style="margin-top: 20px; margin-bottom: 20px">
+    <div>
+      {{ message.content }}
+    </div>
+
+    <div style="display: flex">
+      <form action="/messages/{{ message.id }}/edit">
+        <button type="submit" style="background-color: yellow; color: black; font-weight: bold; padding: 5px; border-radius: 5px">Edit</button>
+      </form>
+
+      <form action="/messages/{{ message.id }}?_method=DELETE" method="POST">
+        <button type="submit" style="background-color: red; color: white; font-weight: bold; padding: 5px; border-radius: 5px">Remove</button>
+      </form>
+    </div>
+  </div>
+</turbo-frame>
