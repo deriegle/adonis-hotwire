@@ -1,6 +1,7 @@
 {
   "name": "adonis-hotwire",
   "version": "1.0.1",
+  "main": "build/providers/HotwireProvider.js",
   "private": false,
   "keywords": [
     "adonis",
