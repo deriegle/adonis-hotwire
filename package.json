@@ -41,7 +41,7 @@
     "youch-terminal": "^1.1.1"
   },
   "dependencies": {
-    "@adonisjs/core": "^5.1.7",
+    "@adonisjs/core": "5.8.6",
     "@adonisjs/lucid": "^14.1.0",
     "@adonisjs/view": "^6.0.2",
     "@hotwired/turbo": "^7.0.0-beta.5",
